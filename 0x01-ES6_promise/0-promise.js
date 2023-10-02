@@ -1,6 +1,7 @@
-export default function getResponseFromAPI(){
-  return new promise((resolve, reject) => {
-    // something
-    resolve();
-  });
+/*eslint-disable*/
+export default function getResponseFromAPI() {
+    return new Promise((resolve,reject) => {
+	// do some async task
+	resolve();
+    });
 }
